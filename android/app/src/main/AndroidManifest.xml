@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.band_names">
    <application
+        android:usesCleartextTraffic="true"  
         android:label="band_names"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
